@@ -53,7 +53,7 @@ yarn
 
 ```shell
 # Switch: Dump mode
-node .\index.js --port=COM3 --out=./thomas.bin --limit=3FFFFF --bank=LOW
+node .\index.js --port=COM3 --mode=dump --out=./thomas.bin --limit=3FFFFF --bank=LOW
 ```
 
 ### Dump retail cartridge to SD card
